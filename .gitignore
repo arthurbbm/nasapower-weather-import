@@ -1,0 +1,6 @@
+.DS_Store
+.Rprofile
+.Rproj.user/
+nasapower-weather-import.Rproj
+renv/
+trials_info.csv
