@@ -9,7 +9,9 @@ library(beepr)
 plan(multisession)
 
 # Load environment data
-trials_raw <- read.csv("trials_info.csv")
+trials_raw <- read.csv("trials_info.csv") %>% 
+  rename(lat = latitude, lon = longitude, START = start_date, END = end_date) %>% 
+  select(environment_id, year, lat, lon, START, END)
 
 # Fetch initial data
 initial_result <- fetch_initial_data(trials_raw)

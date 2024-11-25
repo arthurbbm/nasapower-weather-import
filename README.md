@@ -38,10 +38,10 @@ The input data is provided in a CSV file named `trials_info.csv`, which contains
 
 -   **`environment_id`**: A unique identifier for the trial environment.
 -   **`year`**: The year for which data is to be collected.
--   **`lat`**: Latitude of the trial location.
--   **`lon`**: Longitude of the trial location.
--   **`START`**: Start date for the weather data collection (in `YYYY-MM-DD` format).
--   **`END`**: End date for the weather data collection (in `YYYY-MM-DD` format).
+-   **`latitude`**: Latitude of the trial location.
+-   **`longitude`**: Longitude of the trial location.
+-   **`start_date`**: Start date for the weather data collection (in `YYYY-MM-DD` format).
+-   **`end_date`**: End date for the weather data collection (in `YYYY-MM-DD` format).
 
 Make sure that the `trials_info.csv` file is placed in the working directory before running the script.
 
