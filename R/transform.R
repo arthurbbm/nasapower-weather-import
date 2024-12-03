@@ -1,5 +1,6 @@
 library(dplyr)
 library(geosphere)
+library(stringr)
 
 
 # Data transformation

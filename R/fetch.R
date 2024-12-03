@@ -1,6 +1,7 @@
 library(dplyr)
 library(nasapower)
 library(furrr)
+library(purrr)
 library(future)
 
 
