@@ -3,4 +3,5 @@
 .Rproj.user/
 nasapower-weather-import.Rproj
 renv/
-trials_info.csv
+*.csv
+.Rhistory
