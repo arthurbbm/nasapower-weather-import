@@ -6,7 +6,7 @@ library(future)
 
 
 # Function to fetch weather data for each environment
-get_weather_data <- function(environment_id, year, lat, lon, START, END, retries = 5) {
+get_weather_data <- function(environment_id, lat, lon, START, END, retries = 5) {
   tryCatch({
     weather_partial <- nasapower::get_power(
       community = "ag",
@@ -29,7 +29,7 @@ get_weather_data <- function(environment_id, year, lat, lon, START, END, retries
       delay <- 10 * (6 - retries) # Exponential backoff strategy
       message("Rate limit exceeded for environment_id ", environment_id, ". Retrying after ", delay, " seconds...")
       Sys.sleep(delay) # Delay before retrying
-      return(as.data.frame(get_weather_data(environment_id, year, lat, lon, START, END, retries - 1)))
+      return(as.data.frame(get_weather_data(environment_id, lat, lon, START, END, retries - 1)))
     } else {
       message("Error occurred for environment_id ", environment_id, ": ", e$message)
       return(NULL)

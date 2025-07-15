@@ -11,40 +11,24 @@
   "Packages": {
     "R6": {
       "Package": "R6",
-<<<<<<< HEAD
-      "Version": "2.5.1",
-=======
       "Version": "2.6.1",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-<<<<<<< HEAD
-      "Hash": "470851b6d5d0ac559e9d01bb352b4021"
-    },
-    "Rcpp": {
-      "Package": "Rcpp",
-      "Version": "1.0.13-1",
-=======
       "Hash": "d4335fe7207f1c01ab8c41762f5840d4"
     },
     "Rcpp": {
       "Package": "Rcpp",
       "Version": "1.0.14",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "methods",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "6b868847b365672d6c1677b1608da9ed"
-=======
       "Hash": "e7bdd9ee90e96921ca8a0f1972d66682"
->>>>>>> 9c9347d (Update dependencies)
     },
     "audio": {
       "Package": "audio",
@@ -68,66 +52,39 @@
     },
     "bit": {
       "Package": "bit",
-<<<<<<< HEAD
-      "Version": "4.5.0",
-=======
       "Version": "4.6.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-<<<<<<< HEAD
-      "Hash": "5dc7b2677d65d0e874fc4aaf0e879987"
-    },
-    "bit64": {
-      "Package": "bit64",
-      "Version": "4.5.2",
-=======
       "Hash": "ebe86ffd194564abdc895d87742d5a29"
     },
     "bit64": {
       "Package": "bit64",
       "Version": "4.6.0-1",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "bit",
-<<<<<<< HEAD
-=======
         "graphics",
->>>>>>> 9c9347d (Update dependencies)
         "methods",
         "stats",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "e84984bf5f12a18628d9a02322128dfd"
-    },
-    "cli": {
-      "Package": "cli",
-      "Version": "3.6.3",
-=======
       "Hash": "4f572fbc586294afff277db583b9060f"
     },
     "cli": {
       "Package": "cli",
       "Version": "3.6.5",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "b21916dd77a27642b447374a5d30ecf3"
-=======
       "Hash": "16850760556401a2eeb27d39bd11c9cb"
->>>>>>> 9c9347d (Update dependencies)
     },
     "clipr": {
       "Package": "clipr",
@@ -151,21 +108,13 @@
     },
     "cpp11": {
       "Package": "cpp11",
-<<<<<<< HEAD
-      "Version": "0.5.0",
-=======
       "Version": "0.5.2",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-<<<<<<< HEAD
-      "Hash": "91570bba75d0c9d3f1040c835cee8fba"
-=======
       "Hash": "2720e3fd3dad08f34b19b56b3d6f073d"
->>>>>>> 9c9347d (Update dependencies)
     },
     "crayon": {
       "Package": "crayon",
@@ -196,21 +145,13 @@
     },
     "curl": {
       "Package": "curl",
-<<<<<<< HEAD
-      "Version": "6.0.1",
-=======
       "Version": "6.2.3",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-<<<<<<< HEAD
-      "Hash": "e8ba62486230951fcd2b881c5be23f96"
-=======
       "Hash": "f15795aaa507bf90088346a1eff6534e"
->>>>>>> 9c9347d (Update dependencies)
     },
     "digest": {
       "Package": "digest",
@@ -276,18 +217,11 @@
     },
     "future": {
       "Package": "future",
-<<<<<<< HEAD
-      "Version": "1.34.0",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-=======
       "Version": "1.58.0",
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
->>>>>>> 9c9347d (Update dependencies)
         "digest",
         "globals",
         "listenv",
@@ -295,30 +229,18 @@
         "parallelly",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "475771e3edb711591476be387c9a8c2e"
-    },
-    "generics": {
-      "Package": "generics",
-      "Version": "0.1.3",
-=======
       "Hash": "b096716c11b90643e3cecdcbef564259"
     },
     "generics": {
       "Package": "generics",
       "Version": "0.1.4",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "methods"
       ],
-<<<<<<< HEAD
-      "Hash": "15e9634c0fcd294799e9b2e929ed1b86"
-=======
       "Hash": "4b29bf698d0c7bdb9f1e4976e7ade41d"
->>>>>>> 9c9347d (Update dependencies)
     },
     "geosphere": {
       "Package": "geosphere",
@@ -334,22 +256,14 @@
     },
     "globals": {
       "Package": "globals",
-<<<<<<< HEAD
-      "Version": "0.16.3",
-=======
       "Version": "0.18.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "codetools"
       ],
-<<<<<<< HEAD
-      "Hash": "2580567908cafd4f187c1e5a91e98b7f"
-=======
       "Hash": "0e0c37bd3108b8835c99eaa4d83cf6f5"
->>>>>>> 9c9347d (Update dependencies)
     },
     "glue": {
       "Package": "glue",
@@ -385,21 +299,13 @@
     },
     "jsonlite": {
       "Package": "jsonlite",
-<<<<<<< HEAD
-      "Version": "1.8.9",
-=======
       "Version": "2.0.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "methods"
       ],
-<<<<<<< HEAD
-      "Hash": "4e993b65c2c3ffbffce7bb3e2c6f832b"
-=======
       "Hash": "b0776f526d36d8bd4a3344a88fe165c4"
->>>>>>> 9c9347d (Update dependencies)
     },
     "lattice": {
       "Package": "lattice",
@@ -441,11 +347,7 @@
     },
     "lubridate": {
       "Package": "lubridate",
-<<<<<<< HEAD
-      "Version": "1.9.3",
-=======
       "Version": "1.9.4",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -454,11 +356,7 @@
         "methods",
         "timechange"
       ],
-<<<<<<< HEAD
-      "Hash": "680ad542fbcf801442c83a6ac5a2126c"
-=======
       "Hash": "be38bc740fc51783a78edb5a157e4104"
->>>>>>> 9c9347d (Update dependencies)
     },
     "magrittr": {
       "Package": "magrittr",
@@ -472,48 +370,23 @@
     },
     "mime": {
       "Package": "mime",
-<<<<<<< HEAD
-      "Version": "0.12",
-=======
       "Version": "0.13",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "tools"
       ],
-<<<<<<< HEAD
-      "Hash": "18e9c28c1d3ca1560ce30658b22ce104"
-    },
-    "nasapower": {
-      "Package": "nasapower",
-      "Version": "4.2.1",
-=======
       "Hash": "0ec19f34c72fab674d8f2b4b1c6410e1"
     },
     "nasapower": {
       "Package": "nasapower",
       "Version": "4.2.4",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "cli",
         "crul",
-<<<<<<< HEAD
-        "jsonlite",
-        "lubridate",
-        "readr",
-        "rlang",
-        "tibble"
-      ],
-      "Hash": "1baa4526be6aa2ca5f4b399d471eca44"
-    },
-    "parallelly": {
-      "Package": "parallelly",
-      "Version": "1.39.0",
-=======
         "lubridate",
         "readr",
         "rlang",
@@ -525,7 +398,6 @@
     "parallelly": {
       "Package": "parallelly",
       "Version": "1.45.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -533,27 +405,15 @@
         "tools",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "1d60a6e27e3f1753945cf305735dda19"
-    },
-    "pillar": {
-      "Package": "pillar",
-      "Version": "1.9.0",
-=======
       "Hash": "eec07caa14285c8a9f9de8276473e7a1"
     },
     "pillar": {
       "Package": "pillar",
       "Version": "1.10.2",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "cli",
-<<<<<<< HEAD
-        "fansi",
-=======
->>>>>>> 9c9347d (Update dependencies)
         "glue",
         "lifecycle",
         "rlang",
@@ -561,11 +421,7 @@
         "utils",
         "vctrs"
       ],
-<<<<<<< HEAD
-      "Hash": "15da5a8412f317beeee6175fbc76f4bb"
-=======
       "Hash": "1098920a19b5cd5a15bacdc74a89979d"
->>>>>>> 9c9347d (Update dependencies)
     },
     "pkgconfig": {
       "Package": "pkgconfig",
@@ -603,11 +459,7 @@
     },
     "purrr": {
       "Package": "purrr",
-<<<<<<< HEAD
-      "Version": "1.0.2",
-=======
       "Version": "1.1.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -618,11 +470,7 @@
         "rlang",
         "vctrs"
       ],
-<<<<<<< HEAD
-      "Hash": "1cba04a4e9414bdefc9dcaa99649a8dc"
-=======
       "Hash": "9240cfb47489133f809918a0d3cc60cb"
->>>>>>> 9c9347d (Update dependencies)
     },
     "readr": {
       "Package": "readr",
@@ -659,30 +507,18 @@
     },
     "rlang": {
       "Package": "rlang",
-<<<<<<< HEAD
-      "Version": "1.1.4",
-=======
       "Version": "1.1.6",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "3eec01f8b1dee337674b2e34ab1f9bc1"
-    },
-    "sp": {
-      "Package": "sp",
-      "Version": "2.1-4",
-=======
       "Hash": "892124978869b74935dc3934c42bfe5a"
     },
     "sp": {
       "Package": "sp",
       "Version": "2.2-0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
@@ -695,41 +531,7 @@
         "stats",
         "utils"
       ],
-<<<<<<< HEAD
-      "Hash": "75940133cca2e339afce15a586f85b11"
-    },
-    "stringi": {
-      "Package": "stringi",
-      "Version": "1.8.4",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "stats",
-        "tools",
-        "utils"
-      ],
-      "Hash": "39e1144fd75428983dc3f63aa53dfa91"
-    },
-    "stringr": {
-      "Package": "stringr",
-      "Version": "1.5.1",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Requirements": [
-        "R",
-        "cli",
-        "glue",
-        "lifecycle",
-        "magrittr",
-        "rlang",
-        "stringi",
-        "vctrs"
-      ],
-      "Hash": "960e2ae9e09656611e0b8214ad543207"
-=======
       "Hash": "d9ff3b753db98bc50650314c8782abe6"
->>>>>>> 9c9347d (Update dependencies)
     },
     "tibble": {
       "Package": "tibble",
@@ -789,22 +591,14 @@
     },
     "tzdb": {
       "Package": "tzdb",
-<<<<<<< HEAD
-      "Version": "0.4.0",
-=======
       "Version": "0.5.0",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R",
         "cpp11"
       ],
-<<<<<<< HEAD
-      "Hash": "f561504ec2897f4d46f0c7657e488ae1"
-=======
       "Hash": "09e3961e87b7bafa4a9340bbb34aeda8"
->>>>>>> 9c9347d (Update dependencies)
     },
     "urltools": {
       "Package": "urltools",
@@ -821,21 +615,13 @@
     },
     "utf8": {
       "Package": "utf8",
-<<<<<<< HEAD
-      "Version": "1.2.4",
-=======
       "Version": "1.2.5",
->>>>>>> 9c9347d (Update dependencies)
       "Source": "Repository",
       "Repository": "RSPM",
       "Requirements": [
         "R"
       ],
-<<<<<<< HEAD
-      "Hash": "62b65c52671e6665f803ff02954446e9"
-=======
       "Hash": "ed553a57e9eb21f4d0298fbc1ad7b4df"
->>>>>>> 9c9347d (Update dependencies)
     },
     "vctrs": {
       "Package": "vctrs",
@@ -888,8 +674,6 @@
         "graphics"
       ],
       "Hash": "cc2d62c76458d425210d1eb1478b30b4"
-<<<<<<< HEAD
-=======
     },
     "yyjsonr": {
       "Package": "yyjsonr",
@@ -900,7 +684,6 @@
         "R"
       ],
       "Hash": "09c908729f70276eaa96f32e9f7f09cc"
->>>>>>> 9c9347d (Update dependencies)
     }
   }
 }
