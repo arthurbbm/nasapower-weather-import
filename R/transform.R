@@ -6,7 +6,9 @@ library(stringr)
 # Data transformation
 transform_data <- function(final_nasapower_raw) {
   nasapower <- final_nasapower_raw %>% 
-    rename(date = YYYYMMDD,
+    rename(longitude = LON, 
+           latitude = LAT,
+           date = YYYYMMDD,
            month = MM,
            day = DD,
            year = YEAR,
@@ -20,8 +22,8 @@ transform_data <- function(final_nasapower_raw) {
            rhum = RH2M) %>% 
     mutate(date = paste(year,str_pad(month,2,pad=0),str_pad(day,2,pad=0),sep = "-"),
            wind = wind * 24 * 60 * 60 / 10**3,
-           par = (par*2.02 * geosphere::daylength(LAT,DOY)*3600)/1e6) %>%
-    select(environment_id,date,srad,tmax,tmin,rain,rhum) %>% 
+           par = (par*2.02 * geosphere::daylength(latitude,DOY)*3600)/1e6) %>%
+    select(longitude,latitude,date,srad,tmax,tmin,rain,rhum) %>% 
     as.data.frame()
   
   return(nasapower)

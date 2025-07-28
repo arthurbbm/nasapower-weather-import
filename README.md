@@ -36,7 +36,6 @@ install.packages(c("dplyr", "nasapower", "furrr", "future", "beepr", "geosphere"
 
 The input data is provided in a CSV file named `trials_info.csv`, which contains information about the trial environments. Each row represents a specific environment, and the required columns are as follows:
 
--   **`environment_id`**: A unique identifier for the trial environment.
 -   **`latitude`**: Latitude of the trial location.
 -   **`longitude`**: Longitude of the trial location.
 -   **`start_date`**: Start date for the weather data collection (in `YYYY-MM-DD` format).
